@@ -1,6 +1,6 @@
-# makeCacheMatrix
+#makeCacheMatrix
 #The first function, makeCacheMatrix creates
-#an special "matrix", which is really a list containing a function to
+#an special "matrix",
 #set the value of the matrix
 #get the value of the matrix
 #set the value of the inverse
@@ -42,9 +42,7 @@ cacheSolve <- function(x, ...) {
 
 }
 
-
-## TEST
-
+## test matrix
 C<-matrix(ncol=3,c(2,4,3,5,7,1,2,2,3),byrow=TRUE)
 
 # I create special matrix
